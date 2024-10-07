@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./Resources/Background\ Comunidad.png);
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-position: -3px -150px;
+}
+
+.header{
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 50px 10%;
+    border: #df7704 solid 1px;
+    border-radius: 50px;
+    background-color: #ffebd075;
+}
+
+.header .logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links {
+    list-style: none;
+}
+
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color:#691c00;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color: #df7704;
+}
+
+.header .btn button{
+    margin-left: 20px;
+    font-weight: 700;
+    color: #ffebd0;
+    padding: 9px 25px;
+    background-color: #691c00;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color: #691c00;
+    color: #df7704;
+    transform: scale(1.1);
+}
+
+
+body, button, input {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.container h1{
+    color: #691c00;
+}
+
+.crud__title {
+    text-align: center;
+}
+
+.crud__form{
+    display: flex;
+    margin: 10px;    
+}
+
+.form__input {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 1 rem;
+}
+
+.button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.button:hover {
+    transform: scale(1.2);    
+}
+
+.button--primary{
+    background-color: #049c10;
+    color:#fff
+}
+
+.button--secondary {
+    background-color: #ffc107;
+    color:#fff
+}
+
+.button--tertiary {
+    background-color: #dc3545;
+    color:#fff
+}
+
+.crud__table {
+    width: 100%;
+    border-collapse: collapse;    
+}
+
+.table__header, .table__body td {
+    border: 1px solid #ccc;
+    padding: 8px;    
+}
+
+.table__header {
+    background-color: #f0f0f0;
+}
+
+.table__body td:nth-child(3){
+    display: flex;
+    justify-content: space-around;
+}
